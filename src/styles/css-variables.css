@@ -1,0 +1,19 @@
+:root {
+  /* Shadow Variables */
+  --shadow-color: 206deg 11% 58%;
+  --shadow-elevation-low: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.36),
+    0.5px 0.9px 1.2px -1.2px hsl(var(--shadow-color) / 0.36),
+    1.2px 2.2px 2.8px -2.5px hsl(var(--shadow-color) / 0.36);
+  --shadow-elevation-medium: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.38),
+    1px 1.8px 2.3px -0.8px hsl(var(--shadow-color) / 0.38),
+    2.4px 4.6px 5.8px -1.7px hsl(var(--shadow-color) / 0.38),
+    5.8px 11.1px 14.1px -2.5px hsl(var(--shadow-color) / 0.38);
+  --shadow-elevation-high: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.35),
+    1.7px 3.3px 4.2px -0.4px hsl(var(--shadow-color) / 0.35),
+    3.2px 6.2px 7.8px -0.7px hsl(var(--shadow-color) / 0.35),
+    5.3px 10.1px 12.8px -1.1px hsl(var(--shadow-color) / 0.35),
+    8.5px 16.2px 20.6px -1.4px hsl(var(--shadow-color) / 0.35),
+    13.3px 25.4px 32.3px -1.8px hsl(var(--shadow-color) / 0.35),
+    20.2px 38.6px 49px -2.1px hsl(var(--shadow-color) / 0.35),
+    29.7px 56.8px 72.1px -2.5px hsl(var(--shadow-color) / 0.35);
+}
